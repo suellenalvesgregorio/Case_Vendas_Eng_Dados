@@ -44,3 +44,30 @@ Os notebooks foram desenvolvidos e testados utilizando:
 - **Databricks Community Edition**: Plataforma baseada em Apache Spark utilizada para desenvolvimento, execução e análise avançada dos notebooks.
 
 Essas ferramentas foram essenciais para a construção do case, possibilitando uma abordagem estruturada e eficiente na análise de vendas. 
+
+## 🏗️ Arquitetura Medallion
+
+A Arquitetura Medallion é um modelo de processamento de dados em camadas que organiza os dados de maneira estruturada e otimizada para análise. Ela é composta pelas seguintes etapas:
+
+### 🔹 Landing Zone
+Os dados são armazenados de forma bruta, sem qualquer tipo de processamento. Esta camada é essencial para garantir que os dados originais estejam disponíveis para auditoria e rastreamento.
+
+### 🥉 Bronze
+Nesta camada, os dados passam por um pré-processamento inicial, que inclui:
+- Limpeza dos dados
+- Remoção de cópias redundantes
+- Desnormalização para facilitar consultas futuras
+
+### 🥈 Silver
+Os dados são enriquecidos e transformados em um formato mais legível para relatórios e análises. Algumas das ações aplicadas nesta camada incluem:
+- Agregação de informações
+- Transformação dos dados para melhor estruturação
+- Padronização para facilitar a exploração analítica
+
+### 🏆 Gold
+Nesta última camada, os dados estão prontos para análises avançadas e geração de insights estratégicos. Eles são armazenados de maneira otimizada para:
+- Análises em larga escala
+- Identificação de oportunidades de negócio
+- Suporte à tomada de decisão baseada em dados
+
+Essa abordagem escalonada garante um fluxo de dados eficiente e estruturado, promovendo confiabilidade e melhor desempenho analítico.
