@@ -33,3 +33,14 @@ Este case visa fornecer uma visão detalhada das vendas, identificando padrões 
 - Melhor compreensão do comportamento de vendas em diferentes dimensões.
 - Identificação de oportunidades estratégicas com base em tendências e variações de desempenho.
 - Suporte à tomada de decisão por meio de dados estruturados e visualizações analíticas.
+
+## 🛠️ Ferramentas Utilizadas
+
+Os notebooks foram desenvolvidos e testados utilizando:
+
+- **Excel**: Ferramenta para organização e análise inicial dos dados, permitindo visualizações rápidas e cálculos personalizados.
+- **Python**: Linguagem de programação usada para manipulação e processamento de dados, além de integração com outras ferramentas analíticas.
+- **PySpark**: Framework para processamento de dados distribuído, garantindo eficiência na manipulação de grandes volumes de informações.
+- **Databricks Community Edition**: Plataforma baseada em Apache Spark utilizada para desenvolvimento, execução e análise avançada dos notebooks.
+
+Essas ferramentas foram essenciais para a construção do case, possibilitando uma abordagem estruturada e eficiente na análise de vendas. 
