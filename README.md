@@ -33,7 +33,3 @@ Este case visa fornecer uma visão detalhada das vendas, identificando padrões 
 - Melhor compreensão do comportamento de vendas em diferentes dimensões.
 - Identificação de oportunidades estratégicas com base em tendências e variações de desempenho.
 - Suporte à tomada de decisão por meio de dados estruturados e visualizações analíticas.
-
----
-
-Caso precise adicionar mais detalhes ou ajustar a estrutura, me avise! 🚀
