@@ -39,7 +39,7 @@ Este case visa fornecer uma visão detalhada das vendas, identificando padrões 
 
 ## II. Arquitetura de Solução e Arquitetura Técnica 
 
-## Case de Arquitetura Medallion com PySpark, Databricks e Delta Lake
+## Arquitetura Medallion com PySpark, Databricks e Delta Lake
 
 Este case foi desenvolvido utilizando **notebooks em PySpark**, com a implementação da arquitetura **Medallion** nas camadas **Bronze, Silver e Gold**, por meio do **Databricks e Delta Lake**. Entre as funcionalidades implementadas, destacam-se:
 
