@@ -43,7 +43,7 @@ Esse modelo conceitual, se caracteriza com o esquema floco de neve (snow flake),
 
 ## Arquitetura Medallion com PySpark, Databricks e Delta Lake
 
-Este case foi desenvolvido utilizando **notebooks em PySpark**, com a implementação da arquitetura **Medallion** nas camadas **Bronze, Silver e Gold**, por meio do **Databricks e Delta Lake**. Entre as funcionalidades implementadas, destacam-se:
+Este case foi desenvolvido utilizando **notebooks em PySpark**, com a implementação da arquitetura **Medallion** nas camadas **Bronze, Silver e Gold**, por meio do **Databricks Community e Delta Lake**. Entre as funcionalidades implementadas, destacam-se:
 
 - Criação de **surrogate keys** (chaves substitutas) para as dimensões;
 - Otimização da **tabela fato** na camada Gold.
