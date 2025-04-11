@@ -48,9 +48,7 @@ Os dados são armazenados de forma bruta, sem qualquer tipo de processamento. Es
 
 ### 🥉 Bronze
 Nesta camada, os dados passam por um pré-processamento inicial, que inclui:
-- Limpeza dos dados
-- Remoção de cópias redundantes
-- Desnormalização para facilitar consultas futuras
+A camada Bronze é responsável pela importação dos dados brutos. Nesta camada, foi realizado a importação de um arquivo .csv contendo dados fictícios de vendas referentes ao ano de 2012, armazenado neste repositório com o nome dados_vendas_2012.csv. Esse será o único arquivo a ser importado para a camada Bronze. Os detalhes e justificativas sobre a camada bronze podem ser encontrados no notebook 002 Load Camada Bronze.
 
 ### 🥈 Silver
 Os dados são enriquecidos e transformados em um formato mais legível para relatórios e análises. Algumas das ações aplicadas nesta camada incluem:
