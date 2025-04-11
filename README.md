@@ -3,7 +3,7 @@
 # Apresentação do Case
 O case de engenharia de dados para análise de vendas foi desenvolvido com o propósito de validar conhecimentos técnicos na área, sendo apresentado à banca examinadora Data Master. O projeto visa a realização de uma análise detalhada das vendas, considerando aspectos como cliente, produto, fabricante, geografia, segmento e categoria. Além disso, envolve a medição de KPIs essenciais, incluindo o total de vendas e suas variações diárias, mensais e anuais, permitindo uma visão abrangente do desempenho comercial. A partir da interpretação dos dados, busca-se identificar oportunidades de otimização e definir estratégias de crescimento fundamentadas em insights precisos, promovendo uma abordagem orientada por dados para a tomada de decisão.
 
-# Case: Levantamento de Requisitos
+# I. Objetivo do Case
 
 ## Assunto: Análise de Vendas
 
@@ -34,16 +34,7 @@ Este case visa fornecer uma visão detalhada das vendas, identificando padrões 
 - Identificação de oportunidades estratégicas com base em tendências e variações de desempenho.
 - Suporte à tomada de decisão por meio de dados estruturados e visualizações analíticas.
 
-## 🛠️ Ferramentas Utilizadas
-
-Os notebooks foram desenvolvidos e testados utilizando:
-
-- **Excel**: Ferramenta para organização e análise inicial dos dados, permitindo visualizações rápidas e cálculos personalizados.
-- **Python**: Linguagem de programação usada para manipulação e processamento de dados, além de integração com outras ferramentas analíticas.
-- **PySpark**: Framework para processamento de dados distribuído, garantindo eficiência na manipulação de grandes volumes de informações.
-- **Databricks Community Edition**: Plataforma baseada em Apache Spark utilizada para desenvolvimento, execução e análise avançada dos notebooks.
-
-Essas ferramentas foram essenciais para a construção do case, possibilitando uma abordagem estruturada e eficiente na análise de vendas. 
+## II. Arquitetura de Solução e Arquitetura Técnica 
 
 ## 🏗️ Arquitetura Medallion
 
