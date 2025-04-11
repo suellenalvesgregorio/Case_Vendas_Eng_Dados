@@ -62,3 +62,7 @@ Nesta última camada, os dados estão prontos para análises avançadas e geraç
 - Suporte à tomada de decisão baseada em dados
 
 Essa abordagem escalonada garante um fluxo de dados eficiente e estruturado, promovendo confiabilidade e melhor desempenho analítico.
+
+## III. Explicações e Justificativas sobre o case desenvolvido.
+
+## IV. Melhorias e Considerações Finais.
