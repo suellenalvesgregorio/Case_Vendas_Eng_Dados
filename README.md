@@ -39,6 +39,29 @@ Este case visa fornecer uma visão detalhada das vendas, identificando padrões 
 
 ## II. Arquitetura de Solução e Arquitetura Técnica 
 
+## Case de Arquitetura Medallion com PySpark, Databricks e Delta Lake
+
+Este case foi desenvolvido utilizando **notebooks em PySpark**, com a implementação da arquitetura **Medallion** nas camadas **Bronze, Silver e Gold**, por meio do **Databricks e Delta Lake**. Entre as funcionalidades implementadas, destacam-se:
+
+- Criação de **surrogate keys** (chaves substitutas) para as dimensões;
+- Otimização da **tabela fato** na camada Gold.
+
+### Estrutura dos Notebooks
+
+Foram desenvolvidos **9 notebooks**, organizados e numerados para facilitar a compreensão da ordem de execução:
+
+1. `000 Criando os Diretórios`  
+2. `001 Importando o Arquivo`  
+3. `002 Load Camada Bronze`  
+4. `003 Transformações Camada Silver`  
+5. `004 Load Camada Gold Delta`  
+6. `005 Load Gold Delta Incremental`  
+7. `006 Consultas Otimizadas`  
+8. `007 Criação de tabelas Delta`  
+9. `008 Rotinas de Manutenção Delta`  
+
+Cada notebook contém **explicações e justificativas** sobre sua utilização e implementação, proporcionando uma visão clara do processo.
+
 ## 🏗️ Arquitetura Medallion
 
 A Arquitetura Medallion é um modelo de processamento de dados em camadas que organiza os dados de maneira estruturada e otimizada para análise. Ela é composta pelas seguintes etapas:
@@ -47,7 +70,6 @@ A Arquitetura Medallion é um modelo de processamento de dados em camadas que or
 Os dados são armazenados de forma bruta, sem qualquer tipo de processamento. Esta camada é essencial para garantir que os dados originais estejam disponíveis para auditoria e rastreamento.
 
 ### 🥉 Bronze
-Nesta camada, os dados passam por um pré-processamento inicial, que inclui:
 A camada Bronze é responsável pela importação dos dados brutos. Nesta camada, foi realizado a importação de um arquivo .csv contendo dados fictícios de vendas referentes ao ano de 2012, armazenado neste repositório com o nome dados_vendas_2012.csv. Esse será o único arquivo a ser importado para a camada Bronze. Os detalhes e justificativas sobre a camada bronze podem ser encontrados no notebook 002 Load Camada Bronze.
 
 ### 🥈 Silver
