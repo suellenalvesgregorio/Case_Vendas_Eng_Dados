@@ -92,6 +92,11 @@ Essa abordagem escalonada garante um fluxo de dados eficiente e estruturado, pro
 
 ## IV. Melhorias e Considerações Finais.
 
+### Melhorias
+Ao longo do desenvolvimento deste case, percebo oportunidades para aprimoramento, incluindo a exploração de diferentes formatos de importação de bases de dados, além da integração com APIs, o que permitiria um maior dinamismo na ingestão de dados.
+Outro ponto relevante seria a visualização dos dados em um dashboard no Power BI. Embora a criação de dashboards não seja uma função direta do engenheiro de dados, considero valioso compreender sua aplicação para enriquecer as análises e facilitar a interpretação dos resultados.
+Além disso, vejo que poderia ter aprofundado mais a prática de mascaramento de dados, garantindo maior segurança e conformidade com boas práticas de proteção de informações sensíveis. Esses aprimoramentos contribuiriam para tornar o case ainda mais completo e alinhado às demandas do mercado.
+
 ### Considerações Finais
 Durante o desenvolvimento deste case, tive a oportunidade de explorar conceitos novos e aprofundar meu entendimento em diversas etapas e processos da engenharia de dados. Esse processo não apenas ampliou minha visão sobre o tema, mas também me proporcionou novos aprendizados, fortalecendo meu conhecimento e aprimorando minhas habilidades. Foram meses de estudo intenso, nos quais pude perceber ainda mais a presença dos dados no dia a dia e sua relevância em diferentes áreas. Mesmo atuando como desenvolvedora low-code, o aprendizado adquirido sobre engenharia de dados e a área de dados em geral tem impactado positivamente minhas entregas como desenvolvedora de software, aprimorando minha capacidade de análise e tomada de decisão.
 
