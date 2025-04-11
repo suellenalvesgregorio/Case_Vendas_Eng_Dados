@@ -19,6 +19,9 @@ Este repositório contém  um case de engenharia de dados, com o objetivo de rea
 ## Objetivos da análise:
 Este case visa fornecer uma visão detalhada das vendas, identificando padrões e oportunidades de otimização com base nos dados analisados.
 
+## Modelo Conceitual
+![Modelo Conceitual](./Modelo_Conceitual.jpg)
+
 ### Métricas analisadas:
 - **Total de vendas** (quantidade e valor)
 - **Variações de vendas** 
