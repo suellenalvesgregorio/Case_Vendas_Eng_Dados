@@ -22,6 +22,8 @@ Este case visa fornecer uma visão detalhada das vendas, identificando padrões 
 ## Modelo Conceitual
 ![Modelo Conceitual](./Modelo_Conceitual.jpg)
 
+Esse modelo conceitual, se caracteriza com o esquema floco de neve (snow flake), que é um modelo de dados multidimensional e uma extensão do esquema em estrela, subdividindo as tabelas de dimensão em tabelas de subdimensão. Os esquemas em floco de neve são comumente usados para business intelligence e relatórios usando análise multidimensional em data warehouses, data marts e bancos de dados relacionais.
+
 ### Métricas analisadas:
 - **Total de vendas** (quantidade e valor)
 - **Variações de vendas** 
