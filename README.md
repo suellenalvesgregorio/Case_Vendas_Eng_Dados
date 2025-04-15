@@ -78,12 +78,9 @@ A camada Bronze é responsável pela importação dos dados brutos. Nesta camada
 Na camada Silver, os dados são limpos, padronizados e transformados para facilitar a análise. O DataFrame df_bronze é ajustado para df_silver, convertendo datas, formatando valores monetários, refinando a estrutura dos campos e excluindo colunas desnecessárias. Além disso, o nome e o e-mail são mascarados para garantir a proteção dos dados. Os detalhes e justificativas sobre a camada silver podem ser encontrados no notebook `003 Transformações Camada Silver`.
 
 ### 🏆 Gold
-Nesta última camada, os dados estão prontos para análises avançadas e geração de insights estratégicos. Eles são armazenados de maneira otimizada para:
-- Análises em larga escala
-- Identificação de oportunidades de negócio
-- Suporte à tomada de decisão baseada em dados
-
-Essa abordagem escalonada garante um fluxo de dados eficiente e estruturado, promovendo confiabilidade e melhor desempenho analítico.
+Na camada Gold, os dados da camada Silver são lidos e transformados para a criação de Delta Parquet, estruturando as dimensões produto, categoria, segmento, fabricante, geografia, cliente e a fato vendas. Esse processo é implementado pelo notebook 004 Load Camada Gold Delta.
+Além disso, dentro da mesma camada, o notebook 005 Load Gold Delta Incremental é responsável pela importação de novos arquivos, incluindo a carga nas camadas Bronze e Silver, a atualização das dimensões e a criação da fato vendas.
+Como estou utilizando a versão Community do Databricks, não foi possível automatizar esse fluxo via workflow, tornando necessário realizar a carga manualmente, executando os notebooks 001, 002, 003 e 004. Todas as justificativas e detalhes sobre esse processo estão documentados nos notebooks citados.
 
 ## III. Explicações e Justificativas sobre o case desenvolvido.
 
