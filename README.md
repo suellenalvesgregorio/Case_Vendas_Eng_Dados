@@ -72,13 +72,10 @@ A Arquitetura Medallion é um modelo de processamento de dados em camadas que or
 Os dados são armazenados de forma bruta, sem qualquer tipo de processamento. Esta camada é essencial para garantir que os dados originais estejam disponíveis para auditoria e rastreamento.
 
 ### 🥉 Bronze
-A camada Bronze é responsável pela importação dos dados brutos. Nesta camada, foi realizado a importação de um arquivo .csv contendo dados fictícios de vendas referentes ao ano de 2011 e 2012 armazenado neste repositório com o nome dados_vendas_2011.csv e dados_vendas_2012.csv. Estes são os únicos arquivos a serem importados para a camada Bronze. Os detalhes e justificativas sobre a camada bronze podem ser encontrados no notebook 002 Load Camada Bronze.
+A camada Bronze é responsável pela importação dos dados brutos. Nesta camada, foi realizado a importação de um arquivo .csv contendo dados fictícios de vendas referentes ao ano de 2011 e 2012 armazenado neste repositório com o nome dados_vendas_2011.csv e dados_vendas_2012.csv. Estes são os únicos arquivos a serem importados para a camada Bronze. Os detalhes e justificativas sobre a camada bronze podem ser encontrados no notebook `002 Load Camada Bronze`.
 
 ### 🥈 Silver
-Os dados são enriquecidos e transformados em um formato mais legível para relatórios e análises. Algumas das ações aplicadas nesta camada incluem:
-- Agregação de informações
-- Transformação dos dados para melhor estruturação
-- Padronização para facilitar a exploração analítica
+Na camada Silver, os dados são limpos, padronizados e transformados para facilitar a análise. O DataFrame df_bronze é ajustado para df_silver, convertendo datas, formatando valores monetários, refinando a estrutura dos campos e excluindo colunas desnecessárias. Além disso, o nome e o e-mail são mascarados para garantir a proteção dos dados. Os detalhes e justificativas sobre a camada silver podem ser encontrados no notebook `003 Transformações Camada Silver`.
 
 ### 🏆 Gold
 Nesta última camada, os dados estão prontos para análises avançadas e geração de insights estratégicos. Eles são armazenados de maneira otimizada para:
