@@ -1,7 +1,7 @@
 ## Case_Vendas_Eng_Dados
 
 ## Apresentação do Case
-Este repositório apresenta um case de engenharia de dados focado na análise detalhada de vendas dos anos de (2011/2012), desenvolvido para validar conhecimentos técnicos na área e ser submetido à banca examinadora Data Master. O projeto busca explorar o desempenho comercial a partir de múltiplas perspectivas, incluindo cliente, produto, fabricante, geografia, segmento e categoria. Além disso, são medidos KPIs essenciais, como o total de vendas e suas variações diárias, mensais e anuais, permitindo uma visão estratégica e aprofundada dos dados. Com base nessa análise, o objetivo é que a área de negócios possa identificar oportunidades e definir estratégias de crescimento fundamentadas em insights precisos, reforçando a importância da tomada de decisão orientada por dados. 
+Este repositório apresenta um case de engenharia de dados focado na análise detalhada de vendas dos anos de (2011/2012), desenvolvido para validar conhecimentos técnicos na área e ser submetido à banca examinadora Data Master. O projeto busca explorar o desempenho comercial a partir de múltiplas perspectivas, incluindo cliente, produto, fabricante, geografia, segmento, categoria e tempo. Além disso, são medidos KPIs essenciais, como o total de vendas e suas variações diárias, mensais e anuais, permitindo uma visão estratégica e aprofundada dos dados. Com base nessa análise, o objetivo é que a área de negócios possa identificar oportunidades e definir estratégias de crescimento fundamentadas em insights precisos, reforçando a importância da tomada de decisão orientada por dados. 
 
 ## I. Objetivo do Case
 
