@@ -69,7 +69,7 @@ Cada notebook contém **explicações e justificativas** sobre sua utilização 
 A Arquitetura Medallion é um modelo de processamento de dados em camadas que organiza os dados de maneira estruturada e otimizada para análise. Ela é composta pelas seguintes etapas:
 
 ### 🔹 Landing Zone
-Os dados são armazenados de forma bruta, sem qualquer tipo de processamento. Esta camada é essencial para garantir que os dados originais estejam disponíveis para auditoria e rastreamento.
+Os dados são armazenados de forma bruta, sem qualquer tipo de processamento. Esta camada é essencial para garantir que os dados originais estejam disponíveis para auditoria e rastreamento. O notebook `000 Criando os Diretórios` contém as importação para a Landing Zone.
 
 ### 🥉 Bronze
 A camada Bronze é responsável pela importação dos dados brutos. Nesta camada, foi realizado a importação de um arquivo .csv contendo dados fictícios de vendas referentes ao ano de 2011 e 2012 armazenado neste repositório com o nome dados_vendas_2011.csv e dados_vendas_2012.csv. Estes são os únicos arquivos a serem importados para a camada Bronze. Os detalhes e justificativas sobre a camada bronze podem ser encontrados no notebook `002 Load Camada Bronze`.
