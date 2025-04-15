@@ -79,7 +79,7 @@ Na camada Silver, os dados são limpos, padronizados e transformados para facili
 
 ### 🏆 Gold
 Na camada Gold, os dados da camada Silver são lidos e transformados para a criação de Delta Parquet, estruturando as dimensões produto, categoria, segmento, fabricante, geografia, cliente e a fato vendas. Esse processo é implementado pelo notebook `004 Load Camada Gold Delta`.
-Além disso, dentro da mesma camada, o notebook ´005 Load Gold Delta Incremental` é responsável pela importação de novos arquivos, incluindo a carga nas camadas Bronze e Silver, a atualização das dimensões e a criação da fato vendas.
+Além disso, dentro da mesma camada, o notebook `005 Load Gold Delta Incremental` é responsável pela importação de novos arquivos, incluindo a carga nas camadas Bronze e Silver, a atualização das dimensões e a criação da fato vendas.
 Como estou utilizando a versão Community do Databricks, não foi possível automatizar esse fluxo via workflow, tornando necessário realizar a carga manualmente, executando os notebooks `001`, `002`, `003` e `004`. Todas as justificativas e detalhes sobre esse processo estão documentados nos notebooks citados.
 
 ## III. Explicações e Justificativas sobre o case desenvolvido.
